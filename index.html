@@ -17,11 +17,11 @@
                 <p style="text-align: center">Jade Li 15250717</p>
             </div>
             <div class="row">
-                <div class="col-md-7 col-sm-12 col-xs-12">
-                    <img src="photo.jpg" alt="photo" height=602px width=423px>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                    <img src="photo.jpg" alt="photo" height=423 width=602>
                     <br>
                 </div>
-                <div class="col-md-5 col-sm-12 col-xs-12">
+                <div class="col-md-4 col-sm-12 col-xs-12">
                     <div>
                         <label>Please select your university</label>
                         <select id="index">
@@ -45,7 +45,6 @@
                         <label for="headcount">Annuay salary(HKD)</label>
                         <input class="form-control" type="text" id="output" readonly="readonly">
                     </div>
-                </div>
             </div>
             <div class="page-footer">
                 <a href="data.pdf" target="_blank">the original data</a>
@@ -71,8 +70,8 @@
                             output = "161k"
                         } else if (index == "eight") {
                             output = "260k"
-                        } else    (index == "nine") {
-                            output = "223k"
+                        } else {
+                            output = "223k"    
                     }
                     $('#output').val(output);
                 });
