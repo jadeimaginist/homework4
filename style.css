@@ -1,0 +1,15 @@
+h1 {
+    color: rosybrown;
+}
+
+.page-footer {
+    position: absolute;
+    bottom: 0;
+    background-color: navajowhite;
+    text-align: center;
+    height：20px;
+}
+
+.row {
+    padding-bottom: 20px;
+}
